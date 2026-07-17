@@ -1,0 +1,9 @@
+Day 9 Recap — CSS Grid
+What you learned:
+
+display: grid + grid-template-columns for defining column count/width (repeat(3, 1fr) = 3 equal columns)
+grid-template-rows for controlling row height explicitly, instead of letting rows auto-size to content
+The fr unit ("fraction") — how Grid distributes available space
+When to reach for Grid vs Flexbox: Grid for true two-dimensional layouts (rows + columns together), Flexbox for single-direction arrangements
+
+What you built: Applied Grid to your real profile site — Hobbies and Goals now sit side by side in a two-column layout, plus you cleaned up a leftover duplicate <style> block, keeping your CSS properly centralized in style.css like it should be since Day 8.

@@ -1,0 +1,38 @@
+			body {
+			    background-color: grey;
+			    margin: 20px;
+			    padding: 15px;
+			    border: 30px solid red;
+			}
+
+			h1 {
+			    color: blue;
+			    text-align: center;
+			}
+
+			.header {
+			    display: flex;
+			    flex-direction: column;
+			    gap: 20px;
+			    justify-content: center;
+			    align-items: center;
+			    background-color: greenyellow;
+			}
+
+			table {
+			    border-radius: 20px;
+			    box-shadow: 5px 5px 15px green;
+			    width: 150px;
+			}
+
+			.two-column {
+			    display: grid;
+			    grid-template-columns: repeat(2, 1fr);
+			    gap: 30px;
+			}
+
+			@media (max-width: 600px) {
+			    .two-column {
+			        grid-template-columns: 1fr;
+			    }
+			}

@@ -1,0 +1,10 @@
+Day 10 Recap — Responsive Design
+What you learned:
+
+New CSS units: %, vw/vh, rem — flexible sizing vs fixed px
+Media queries (@media (max-width: ...)) — applying different CSS rules based on screen width
+The viewport meta tag — essential for responsive design to work at all, since without it browsers assume a fixed desktop-width layout and just scale it down
+DevTools' device emulation (Ctrl+Shift+M) for testing without a real phone
+A batch of VS Code and DevTools keyboard shortcuts to speed up your workflow
+
+What you built: Your profile site's two-column Hobbies/Goals section now properly stacks into one column on narrow screens, and — more importantly — you debugged a real, subtle responsive design bug from scratch, correctly checking the media query syntax first, then working through what else could cause it.
