@@ -1,0 +1,13 @@
+Day 11 Recap — Git & GitHub Basics
+What you learned:
+
+Git = the tool that tracks changes locally; GitHub = where you host/back up those changes online — related but distinct
+Core workflow: git add . → git commit -m "..." → git push
+git init to start tracking a folder, git status to check current state
+Connecting a local repo to GitHub via git remote add origin ... and pushing with git push -u origin main
+
+What you actually debugged (bigger lesson than the happy path):
+
+A real permissions error (403) caused by a mismatch between which GitHub account your repo lived under vs. which account Git had cached credentials for
+Cached credentials living separately from your browser login (Windows Credential Manager) — a genuinely common, confusing real-world Git issue
+You made a deliberate call to route this project through learnerintense-ops rather than s0a1m0x01 — worth remembering that choice for future sessions, since we'll assume that's where this project lives going forward unless you say otherwise
