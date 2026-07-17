@@ -1,0 +1,6 @@
+Day 12 Recap — Practice Day
+What you did today:
+
+Reviewed and polished your existing site (grid layout, responsiveness)
+Added a second media query (table responsiveness), reinforcing the Day 10 pattern on a new element
+Worked through a real, common Git hiccup — a staged-but-not-committed file after an accidentally closed terminal — and resolved it correctly by checking git status first before acting.
