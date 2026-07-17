@@ -1,0 +1,9 @@
+Day 13 Recap — CSS Positioning & Z-Index
+What you learned:
+
+position: static (default) vs relative (nudge from normal position) vs absolute (removed from flow, anchored to nearest positioned ancestor) vs fixed (anchored to the browser window, ignores scroll)
+The common relative parent + absolute child pattern — this is how badges, tooltips, and dropdown menus are positioned in real websites
+z-index — controls stacking order when elements overlap, and only works on non-static positioned elements
+Default stacking behavior (later in HTML = on top) when no z-index is set
+
+What you built: A small card-with-badge component, then a second overlapping element to directly observe how stacking order works with and without z-index — a clean, controlled experiment that clearly showed cause and effect.
